@@ -22,7 +22,7 @@ class Api::V1::UsersController < Api::V1::ApiController
     end
 
     private 
-        def set_ong
+        def set_user
             @ong = User.find(params[:id])
         end
 
